@@ -1,2 +1,3 @@
-var person = { name: "M AHMED", fname: "SOHAIL IQBAL", age: 17 };
-console.log(person);
+var days = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
+// console.log(days{7}) 
+console.log(days[5]);

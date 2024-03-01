@@ -1,35 +1,51 @@
-// Task 23 
-let car = "subaru";
+let name_1 : string = "Muhammad Ahmed"
+let name_2 : string = "SOHAIL"
+let name_3 : string = "IQBAL"
 
- console.log("is car == 'subaru'? predict true")
-console.log( car == 'subaru')
+// if (name_1 == name_3){
+//     console.log("names are equal")
+// }
+// else {
+//     console.log("names are not equal")
+// } 
 
- console.log("is car !='DHOOM'? predic true") 
- console.log(car !='DHOOM') 
+// if (name_1 != name_2){
+//     console.log("names are equal")
+// }
 
- console.log("is car == 'subaru'? predict false") 
-  console.log(car == 'subaru')  
+// if (name_1 != name_3){
+//     console.log("names are equal")
+// } 
 
-  console.log("is car == 'SUBARU'? predict false")  
-  console.log(car == 'SUBARU')   
+let age_1 : number = 18
+let age_2 : number = 50
 
- console.log("is car length ==6? predict true")
- console.log(car.length ==6) 
-  
- console.log("is car length !=10? predict true")
- console.log(car.length !=10)
+// if (age_1 == 18) {
+//     console.log("eligible for vote")
+// }
 
- console.log("is 10 > 50 ? predict false")
- console.log(10 > 45) 
+// if (age_1 != 50){
+//     console.log("eligibel for vote in older catgory")
+// } 
 
- console.log("is 3 <= 2 ? predict false")
- console.log(3 <= 2)  
+// if (age_1 <= age_2){ //less
+//     console.log("younger")
+// } 
 
-console.log("is 3 <= 2 ? predict false")
-console.log(3 <= 2)  
+// if (age_2 >= age_1){ //greater
+//     console.log("older")
+// }
 
- console.log("is 75 <= 60 ? predict false")
- console.log(75 <= 60)  
+// if (age_1 == 18 && age_2 == 50) {
+//     console.log("person is eligible for vote")
+// } 
 
-console.log("is car == 'subaru' && car.length == 6? predict true")
-console.log(car == 'subaru' && car.length ==6)  
+// if (age_1 == 18 || age_2 != 50) {
+//     console.log("person is eligible not for vote")
+// }  
+
+let country : string [] = ["pakistan","china","india","oman"]
+if (country.includes("pakistan")){
+    console.log("pakistan is in country list")
+} 
+

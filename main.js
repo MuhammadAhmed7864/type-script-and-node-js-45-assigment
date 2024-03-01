@@ -1,24 +1,39 @@
-// Task 23 
-var car = "subaru";
-console.log("is car == 'subaru'? predict true");
-console.log(car == 'subaru');
-console.log("is car !='DHOOM'? predic true");
-console.log(car != 'DHOOM');
-console.log("is car == 'subaru'? predict false");
-console.log(car == 'subaru');
-console.log("is car == 'SUBARU'? predict false");
-console.log(car == 'SUBARU');
-console.log("is car length ==6? predict true");
-console.log(car.length == 6);
-console.log("is car length !=10? predict true");
-console.log(car.length != 10);
-console.log("is 10 > 50 ? predict false");
-console.log(10 > 45);
-console.log("is 3 <= 2 ? predict false");
-console.log(3 <= 2);
-console.log("is 3 <= 2 ? predict false");
-console.log(3 <= 2);
-console.log("is 75 <= 60 ? predict false");
-console.log(75 <= 60);
-console.log("is car == 'subaru' && car.length == 6? predict true");
-console.log(car == 'subaru' && car.length == 6);
+var name_1 = "Muhammad Ahmed";
+var name_2 = "SOHAIL";
+var name_3 = "IQBAL";
+// if (name_1 == name_3){
+//     console.log("names are equal")
+// }
+// else {
+//     console.log("names are not equal")
+// } 
+// if (name_1 != name_2){
+//     console.log("names are equal")
+// }
+// if (name_1 != name_3){
+//     console.log("names are equal")
+// } 
+var age_1 = 18;
+var age_2 = 50;
+// if (age_1 == 18) {
+//     console.log("eligible for vote")
+// }
+// if (age_1 != 50){
+//     console.log("eligibel for vote in older catgory")
+// } 
+// if (age_1 <= age_2){ //less
+//     console.log("younger")
+// } 
+// if (age_2 >= age_1){ //greater
+//     console.log("older")
+// }
+// if (age_1 == 18 && age_2 == 50) {
+//     console.log("person is eligible for vote")
+// } 
+// if (age_1 == 18 || age_2 != 50) {
+//     console.log("person is eligible not for vote")
+// }  
+var country = ["pakistan", "china", "india", "oman"];
+if (country.includes("pakistan")) {
+    console.log("pakistan is in country list");
+}

@@ -1,11 +1,5 @@
-var animals = ["cow", "goat", "sheet"];
-for (var _i = 0, animals_1 = animals; _i < animals_1.length; _i++) {
-    var animal = animals_1[_i];
-    console.log(animal);
+function makeShirt(size, text) {
+    console.log("\n you order a ".concat(size, " shirt that says ").concat(text));
 }
-console.log("\n");
-for (var _a = 0, animals_2 = animals; _a < animals_2.length; _a++) {
-    var animal = animals_2[_a];
-    console.log("A ".concat(animals, " has a  tail"));
-}
-console.log("\n I like cow");
+makeShirt('Large', '"i love typescript"');
+makeShirt('medium', '"i need a big shirt"');

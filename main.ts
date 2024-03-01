@@ -1,12 +1,6 @@
-let animals : string [] = ["cow","goat","sheet"]
-for (let animal of animals) {
-    console.log(animal)
-}
+function makeShirt(size: string, text: string): void {
+    console.log(`\n you order a ${size} shirt that says ${text}`)
+} 
 
-console.log("\n") 
-
-for (let animal of animals) {
-    console.log(`A ${animals} has a  tail`) 
-}   
-console.log("\n I like cow")
-
+makeShirt('Large','"i love typescript"')
+makeShirt('medium','"i need a big shirt"') 

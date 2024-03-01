@@ -1,16 +1,16 @@
-var users = ["admin", "eric", "ahmed", "asaad", "hiba",];
-// if (users.length === 0) {
-// console.log ("we need to find some users")
-// } else {
-//    for (let user of users) {
-//         if (user === "admin") {
-//             console.log("Hello admin, would you like to see a status report?") 
-//         } else {
-//             console.log (`Hello ${users}, thank you for logging in again `)
-//         }
-//    }
-// } 
-users = [];
-if (users.length === 0) {
-    console.log("we need to find some users");
+var favourite_fruits = ["Mango", "orange", "apple", "peach", "berry"];
+if (favourite_fruits.includes("Mango")) {
+    console.log("Mango");
+}
+if (favourite_fruits.includes("peach")) {
+    console.log("you really like Bananas");
+}
+if (favourite_fruits.includes("orange")) {
+    console.log("you really like Bananas");
+}
+if (favourite_fruits.includes("berry")) {
+    console.log("you really like Bananas");
+}
+if (favourite_fruits.includes("apple")) {
+    console.log("you really like Bananas");
 }

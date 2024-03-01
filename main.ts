@@ -1,31 +1,18 @@
-let guestArr : string [] = ["Hiba","ASAAD","SOHAIL"];
+// Task 17
+// part 1
+//let guests: string[] = ["AHMED","ASAAD","HIBA","HARAM"]
+//console.log("Due to limited seats only two guest are invited for dinner.");
+//  part 2
+// while (guests.length > 2){
+    // const removedGuest = guests.pop();
+// console.log(`Sorry, ${removedGuest}, you re not longer invited `)
+// }   
+// part 3
+let guests: string[] = ["AHMED","ASAAD",]
+// guests.forEach((guest) => {
+  //   console.log(`Dear ${guest}, you re still invied.`);
+//})
 
-let canNotAttend : string = "ASAAD"
-
-let newGuest : string = "Haram"
-
-guestArr [guestArr.indexOf(canNotAttend)] = newGuest;
-// console.log(guestArr)
-
-// guestArr.map((items) =>
-// console.log(`dear ${items} I FOUND a big dinner party tonight I AM INVITED MORE PEOPLE.`)
-// );
-
-// part 2 guest Began
-let Guestbeg : string = "AHMED"
-guestArr.unshift(Guestbeg);
-// console.log(guestArr)
-
-// part 3 guest Middle
-let middelGuest : string = "HUSSAIN"
-let middleindex = guestArr.length/3
-guestArr.splice(middleindex,0,middelGuest);
-// console.log(guestArr);
-
-// part 4 append
-guestArr.push("farheen")
-console.log(guestArr)
-
-// part 5
-guestArr.map((items =>
-console.log(`dear ${items} you are invited it the more people list of dinner`));
+guests.pop();
+guests.pop();
+console.log("Final guest list:", guests);

@@ -1,16 +1,10 @@
-var favourite_fruits = ["Mango", "orange", "apple", "peach", "berry"];
-if (favourite_fruits.includes("Mango")) {
-    console.log("Mango");
-}
-if (favourite_fruits.includes("peach")) {
-    console.log("you really like Bananas");
-}
-if (favourite_fruits.includes("orange")) {
-    console.log("you really like Bananas");
-}
-if (favourite_fruits.includes("berry")) {
-    console.log("you really like Bananas");
-}
-if (favourite_fruits.includes("apple")) {
-    console.log("you really like Bananas");
+var users = ["admin", "eric", "ahmed", "asaad", "hiba",];
+for (var _i = 0, users_1 = users; _i < users_1.length; _i++) {
+    var user = users_1[_i];
+    if (user === "admin") {
+        console.log("Hello admin, would you like to see a status report?");
+    }
+    else {
+        console.log("Hello ".concat(users, ", thank you for logging in again "));
+    }
 }

@@ -1,21 +1,9 @@
-let favourite_fruits : string [] = ["Mango","orange","apple","peach","berry"]  
+let users : string [] = ["admin","eric","ahmed","asaad","hiba",] 
 
-if (favourite_fruits.includes("Mango")) {
-    console.log("Mango")
+for(let user of users) {
+    if (user === "admin") {
+    console.log("Hello admin, would you like to see a status report?")
+}  else  {
+    console.log (`Hello ${users}, thank you for logging in again `)
 }
-
-if (favourite_fruits.includes("peach")) {
-    console.log("you really like Bananas")
-}
-
-if (favourite_fruits.includes("orange")) {
-    console.log("you really like Bananas")
-}
-
-if (favourite_fruits.includes("berry")) {
-    console.log("you really like Bananas")
-}
-
-if (favourite_fruits.includes("apple")) {
-    console.log("you really like Bananas")
 } 

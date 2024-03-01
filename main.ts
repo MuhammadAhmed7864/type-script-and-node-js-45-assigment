@@ -1,9 +1,7 @@
-// author: [M AHMED SOHAIL]
-// date: [wednesday,Febuary ]
+// assigment solution
 
-// task 9: printing my favorite number
-
-let favoriteNumber: number=5;
-
-// revelving my favorite number in a message formate
-console.log(`My favorite Number is ${favoriteNumber},`);
+// Task 11
+let names : string [] = ["AHMED","ASAAD","SOHAIL"];
+console.log(names[0]);
+console.log(names[1]);
+console.log(names[2]);

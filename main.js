@@ -1,2 +1,6 @@
-var favoriteNumber = 5;
-console.log("My favorite Number is ".concat(favoriteNumber, ","));
+// assigment solution
+// Task 11
+var names = ["AHMED", "ASAAD", "SOHAIL"];
+console.log(names[0]);
+console.log(names[1]);
+console.log(names[2]);

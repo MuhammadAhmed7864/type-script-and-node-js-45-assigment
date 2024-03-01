@@ -1,5 +1,9 @@
 function makeShirt(size, text) {
-    console.log("\n you order a ".concat(size, " shirt that says ").concat(text));
+    if (size === void 0) { size = 'large'; }
+    if (text === void 0) { text = 'I love typescript'; }
+    console.log("you have order a ".concat(size, ", shirt that says ").concat(text));
 }
-makeShirt('Large', '"i love typescript"');
-makeShirt('medium', '"i need a big shirt"');
+makeShirt();
+makeShirt("medium");
+// different message
+makeShirt('small', 'I need a big shirt to wear');

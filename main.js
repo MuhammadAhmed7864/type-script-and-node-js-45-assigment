@@ -1,13 +1,14 @@
-function makeAlbum(artist, title) {
-    var dictionaries = {
-        artist: artist.charAt(0).toUpperCase() + artist.slice(1),
-        title: title.charAt(0).toUpperCase() + title.slice(1),
-    };
-    return dictionaries;
+function sandwich() {
+    var items = [];
+    for (var _i = 0; _i < arguments.length; _i++) {
+        items[_i] = arguments[_i];
+    }
+    console.log("sandwich order:");
+    for (var i = 0; i < items.length; i++) {
+        console.log("- ".concat(items[i]));
+    }
 }
-var album = makeAlbum("Ahmed", "light");
-console.log(album);
-album = makeAlbum("Ahmed", "light");
-console.log(album);
-album = makeAlbum("Ahmed", "light");
-console.log(album);
+console.log("enjoy your sandwich Ahmed Sohail");
+sandwich('capsicum', 'tomato', 'chicken');
+sandwich('beef', 'cheese');
+sandwich('garlic', 'chicken', 'mayo sauce');

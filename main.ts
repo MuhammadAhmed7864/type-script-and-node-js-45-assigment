@@ -1,7 +1,6 @@
-// assigment solution
-
-// Task 11
 let names : string [] = ["AHMED","ASAAD","SOHAIL"];
-console.log(names[0]);
-console.log(names[1]);
-console.log(names[2]);
+
+  let message : string = "do you like Apple?"
+  console.log(names[0] + " " + message);
+  console.log(names[1] + " " + message);
+  console.log(names[2] + " " + message);

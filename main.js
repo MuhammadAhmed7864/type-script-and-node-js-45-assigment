@@ -1,12 +1,16 @@
-var current_users = ["admin", "Ahmed", "Asaad", "Hiba", "sohail"];
-var new_users = ["admin", "sohail", "Hussain", "Faisal", "Iqbal"];
-var current_users_lower = current_users.map(function (user) { return user.toLowerCase(); });
-for (var _i = 0, new_users_1 = new_users; _i < new_users_1.length; _i++) {
-    var new_user = new_users_1[_i];
-    if (current_users_lower.includes(new_user.toLowerCase())) {
-        console.log("Soory ".concat(new_user, ", that name is taken"));
+var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+for (var _i = 0, numbers_1 = numbers; _i < numbers_1.length; _i++) {
+    var number = numbers_1[_i];
+    if (number === 1) {
+        console.log("".concat(number, "st"));
+    }
+    else if (number === 2) {
+        console.log("".concat(number, "nd"));
+    }
+    else if (number === 3) {
+        console.log("".concat(number, "rd"));
     }
     else {
-        console.log("Yes ".concat(new_user, ", is still avaliable list"));
+        console.log("".concat(number, "th"));
     }
 }

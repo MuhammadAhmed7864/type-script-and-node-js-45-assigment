@@ -1,13 +1,12 @@
-let favourite_pizza : string [] = ["peproni","chicken","veg"]
-
- for (let pizza of favourite_pizza) {
-     console.log(pizza)
- }
-
- console.log("\n") 
-
-for (let pizza of favourite_pizza) {
-    console.log(`I really like ${pizza} pizza`) 
+let animals : string [] = ["cow","goat","sheet"]
+for (let animal of animals) {
+    console.log(animal)
 }
 
-console.log("\nI really love pizza")
+console.log("\n") 
+
+for (let animal of animals) {
+    console.log(`A ${animals} has a  tail`) 
+}   
+console.log("\n I like cow")
+

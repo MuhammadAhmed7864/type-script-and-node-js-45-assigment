@@ -1,11 +1,11 @@
-var favourite_pizza = ["peproni", "chicken", "veg"];
-for (var _i = 0, favourite_pizza_1 = favourite_pizza; _i < favourite_pizza_1.length; _i++) {
-    var pizza = favourite_pizza_1[_i];
-    console.log(pizza);
+var animals = ["cow", "goat", "sheet"];
+for (var _i = 0, animals_1 = animals; _i < animals_1.length; _i++) {
+    var animal = animals_1[_i];
+    console.log(animal);
 }
 console.log("\n");
-for (var _a = 0, favourite_pizza_2 = favourite_pizza; _a < favourite_pizza_2.length; _a++) {
-    var pizza = favourite_pizza_2[_a];
-    console.log("I really like ".concat(pizza, " pizza"));
+for (var _a = 0, animals_2 = animals; _a < animals_2.length; _a++) {
+    var animal = animals_2[_a];
+    console.log("A ".concat(animals, " has a  tail"));
 }
-console.log("\nI really love pizza");
+console.log("\n I like cow");

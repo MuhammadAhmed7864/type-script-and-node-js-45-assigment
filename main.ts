@@ -1,9 +1,11 @@
-function makeShirt(size: string = 'large', text: string = 'I love typescript'): void{
-    console.log(`you have order a ${size}, shirt that says ${text}`)
+function cityCountry(city: string, country: string): string {
+    return `${city},${country}`
 } 
 
-makeShirt();
-makeShirt(`medium`) 
+let c1 = cityCountry('lahore','pakistan')
+let c2 = cityCountry('Makkah','saudiarabia')
+let c3 = cityCountry('Istanbul','Turkey')
 
-// different message
-makeShirt('small', 'I need a big shirt to wear') 
+console.log(c1)
+console.log(c2)
+console.log(c3) 

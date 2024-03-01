@@ -1,9 +1,9 @@
-function makeShirt(size, text) {
-    if (size === void 0) { size = 'large'; }
-    if (text === void 0) { text = 'I love typescript'; }
-    console.log("you have order a ".concat(size, ", shirt that says ").concat(text));
+function cityCountry(city, country) {
+    return "".concat(city, ",").concat(country);
 }
-makeShirt();
-makeShirt("medium");
-// different message
-makeShirt('small', 'I need a big shirt to wear');
+var c1 = cityCountry('lahore', 'pakistan');
+var c2 = cityCountry('Makkah', 'saudiarabia');
+var c3 = cityCountry('Istanbul', 'Turkey');
+console.log(c1);
+console.log(c2);
+console.log(c3);

@@ -1,3 +1,2 @@
-var country = ["Karachi", "Lahore", "Islamabad", "Hyderabad", "peshawar"];
-console.log("List of country");
-console.log(country);
+var person = { name: "M AHMED", fname: "SOHAIL IQBAL", age: 17 };
+console.log(person);

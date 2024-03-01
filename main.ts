@@ -1,3 +1,2 @@
-let country: string[] = ["Karachi","Lahore","Islamabad","Hyderabad","peshawar"]
-console.log("List of country");
-console.log(country) 
+let person: {name: string, fname: string, age:number} = {name: "M AHMED", fname: "SOHAIL IQBAL", age: 17}
+console.log(person) 

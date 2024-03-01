@@ -1,9 +1,13 @@
-function cityCountry(city, country) {
-    return "".concat(city, ",").concat(country);
+function makeAlbum(artist, title) {
+    var dictionaries = {
+        artist: artist.charAt(0).toUpperCase() + artist.slice(1),
+        title: title.charAt(0).toUpperCase() + title.slice(1),
+    };
+    return dictionaries;
 }
-var c1 = cityCountry('lahore', 'pakistan');
-var c2 = cityCountry('Makkah', 'saudiarabia');
-var c3 = cityCountry('Istanbul', 'Turkey');
-console.log(c1);
-console.log(c2);
-console.log(c3);
+var album = makeAlbum("Ahmed", "light");
+console.log(album);
+album = makeAlbum("Ahmed", "light");
+console.log(album);
+album = makeAlbum("Ahmed", "light");
+console.log(album);

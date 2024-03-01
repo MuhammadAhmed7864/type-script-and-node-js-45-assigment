@@ -1,11 +1,17 @@
-function cityCountry(city: string, country: string): string {
-    return `${city},${country}`
-} 
+ function makeAlbum (artist: string, title: string): {artist: string; title: string} {
+    const dictionaries = {
+        artist: artist.charAt(0).toUpperCase() + artist.slice(1),
+        title: title.charAt(0).toUpperCase() + title.slice(1),
+    };
+    return dictionaries;
+ } 
+  
+let album = makeAlbum("Ahmed","light")
+console.log(album)
+ 
+ album = makeAlbum("Asaad","begineer")
+console.log(album)
 
-let c1 = cityCountry('lahore','pakistan')
-let c2 = cityCountry('Makkah','saudiarabia')
-let c3 = cityCountry('Istanbul','Turkey')
+ album = makeAlbum("Sohail","expert")
+console.log(album) 
 
-console.log(c1)
-console.log(c2)
-console.log(c3) 

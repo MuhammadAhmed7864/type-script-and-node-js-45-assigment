@@ -1,17 +1,20 @@
-// Task 17
-// part 1
-//let guests: string[] = ["AHMED","ASAAD","HIBA","HARAM"]
-//console.log("Due to limited seats only two guest are invited for dinner.");
-//  part 2
-// while (guests.length > 2){
-// const removedGuest = guests.pop();
-// console.log(`Sorry, ${removedGuest}, you re not longer invited `)
-// }   
-// part 3
-var guests = ["AHMED", "ASAAD",];
-// guests.forEach((guest) => {
-//   console.log(`Dear ${guest}, you re still invied.`);
-//})
-guests.pop();
-guests.pop();
-console.log("Final guest list:", guests);
+// part 1 Orignal order
+var placeToVisit = ["Pakistan", "china", "SaudiArabia", "Phalestine"];
+console.log("Orignal order:", placeToVisit);
+// part 2 alphabetic order 
+console.log("Alphabetical order:", placeToVisit.sort());
+// part 3 Orignal order after sorting
+console.log("Orignal order after sorting:", placeToVisit);
+// part 4 Reverse alphabetical order 
+console.log("Reverse alphabetical order:", placeToVisit.sort().reverse());
+// part 5 orignal order after reverse sorting 
+console.log("Orignal after order sorting:", placeToVisit);
+// part 6 reaverse order 
+placeToVisit.reverse();
+console.log("Reversed order:", placeToVisit);
+// part 7 sort the array in alphabetical order 
+placeToVisit.sort();
+console.log("Sorted in alphabetical order:", placeToVisit);
+// part 8 reverse alphabetical order 
+placeToVisit.sort(function (a, b) { return b.localeCompare(a); });
+console.log("Sorted in reverse alphabetical order", placeToVisit);

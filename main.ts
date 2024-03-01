@@ -1,16 +1,2 @@
-type car = {
-    manufacture: string
-    model: string
-    [key: string]: any;
-} 
-
-function createCar(manufacture: string, model:string, optional: Record<string, any>): car{
-    return{
-        manufacture,
-        model,
-        ...optional
-    }
-}
-
-const mycar: car = createCar("toyota","corola",{color: "silver" , year: "2023"})
-console.log(mycar) 
+let personName: string="Eric";
+console.log(`Hello ${personName},would you like to learn some phyton today?`);
